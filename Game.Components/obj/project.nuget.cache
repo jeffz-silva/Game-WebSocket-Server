@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "o1J+btvRFihHpQB5iy60O9U4FBoBkYLpODS/A7uYtfl/idk+FDu446YA/Qtrkb70Y7cnxWCCEiggD1ZKk6pNHg==",
+  "success": true,
+  "projectFilePath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Components\\Game.Components.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JeffzAtaa\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
+    "C:\\Users\\JeffzAtaa\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\JeffzAtaa\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\JeffzAtaa\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\JeffzAtaa\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\JeffzAtaa\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\JeffzAtaa\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\JeffzAtaa\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

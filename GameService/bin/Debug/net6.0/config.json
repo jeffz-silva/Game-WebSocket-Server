@@ -1,0 +1,15 @@
+{
+	"address": "192.168.15.15",
+	"port": 9200,
+	
+	"sql_connection_user": {
+		"server": "localhost",
+		"database": "Db_TankGame",
+		"userid": "sa",
+		"password": "123456"
+	},
+	
+	"files": {
+		"language": "Languages\\language-en.txt"
+	}
+}

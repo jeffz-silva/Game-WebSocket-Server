@@ -1,0 +1,12 @@
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\obj\Debug\net6.0\Game.Network.csproj.AssemblyReference.cache
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\obj\Debug\net6.0\Game.Network.GeneratedMSBuildEditorConfig.editorconfig
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\obj\Debug\net6.0\Game.Network.AssemblyInfoInputs.cache
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\obj\Debug\net6.0\Game.Network.AssemblyInfo.cs
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\obj\Debug\net6.0\Game.Network.csproj.CoreCompileInputs.cache
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\bin\Debug\net6.0\Game.Network.deps.json
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\bin\Debug\net6.0\Game.Network.dll
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\bin\Debug\net6.0\Game.Network.pdb
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\obj\Debug\net6.0\Game.Network.dll
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\obj\Debug\net6.0\refint\Game.Network.dll
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\obj\Debug\net6.0\Game.Network.pdb
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\obj\Debug\net6.0\ref\Game.Network.dll

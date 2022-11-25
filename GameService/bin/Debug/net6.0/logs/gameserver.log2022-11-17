@@ -1,0 +1,546 @@
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:54894, game-eaa0dedf-23cc-4f9c-ae72-e2bb700e0286!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:54964, game-3db70b5a-65fb-4995-bbdb-1d1c886bdf49!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55018, game-c52d5fe3-d8ad-45ce-9cba-241c528daf2b!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55035, game-5d4979b4-b7ea-4a61-8119-71342f3989a3!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:55059, game-5408025c-43d4-4fa1-bf1b-405b127798a9!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55080, game-7154fa7b-a69b-42b8-a41b-4345a3797acc!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55116, game-469818af-9f93-40b7-8d4b-12b00ab1bb7f!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55186, game-6c6001bb-2f96-4595-88c6-491d530770be!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55198, game-8718bb0d-3c3f-45d7-a3b6-c896fc3b28a0!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55206, game-a1aea048-bff9-4762-918f-034d700e585e!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55232, game-98f3bac8-666d-4f4b-acba-f47ba0e1e24c!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55261, game-a5df14f3-960e-4f2f-8b6e-02c8f36afed7!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55272, game-2dc62964-25fe-40d5-8fdd-adc77bc801d4!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:61549, game-2c973f1b-8317-4433-847c-32b41cfa4d1c!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61640, game-5d46fb72-f5d8-418c-9acc-9de27b6b0ecd!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61649, game-cd87c4c2-8ce5-4816-9c96-80bf6fac3982!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61656, game-cfcf6df6-41f0-4091-9691-a5139a8d9b0c!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61688, game-0d86b932-c7c6-4c08-ab85-67acac7b1570!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61702, game-2b8f90cd-a43a-43ce-ab1b-9e0450c19c06!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61721, game-3ec0e307-f47e-408f-b9d1-99114016c934!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:61745, game-80953987-52dc-44e6-a4fd-3ee8ccbc559d!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:64837, game-cb70b5e9-316e-496b-901a-7546f02538a3!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:64846, game-9815cb92-4925-41fb-8b00-7716ada5fc3b!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:58726, game-93fe4f68-6927-4c65-a46f-7f80ec60365c!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:58737, game-735406d8-74ca-45a2-ab24-c41a8cd77a5a!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:59229, game-1ba8bd2d-b35d-4485-839f-5a83b0bc30bc!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:59270, game-76e50b9c-d144-4ed5-9350-f5fff25e3ac1!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:59296, game-b3328a83-6820-4d22-83b0-be319ca96662!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:59327, game-0900fbf9-800e-4e15-8f97-3a9f1dec32eb!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:59363, game-e6f55243-5a45-4312-89bd-a5308ade3e8e!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:59461, game-f339fbb9-0402-4ae0-b016-03aeeba21b76!
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-f339fbb9-0402-4ae0-b016-03aeeba21b76], Data: 
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:59616, game-4122af9e-fc6b-4d59-959f-22a3083f26c2!
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: testeDATA
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 3 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 11 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 11 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 10 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 10 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 12 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 12 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 13 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 14 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 15 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 16 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 17 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 17 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 18 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 18 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 19 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 19 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 20 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 21 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 21 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 21 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 21 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 23 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 22 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 22 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 24 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 24 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 25 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 27 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 28 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 28 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 29 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 30 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 30 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 31 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 32 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 33 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 34 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 35 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 35 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 36 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 37 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 38 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 39 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 40 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 40 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 41 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 42 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 42 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 42 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 43 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 43 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 43 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 43 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 44 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 44 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 45 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 46 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 47 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 47 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 48 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 49 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 50 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 51 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 52 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 52 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 53 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 53 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 53 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 54 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 55 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 56 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 57 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 58 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 59 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 60 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 60 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 61 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 61 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 61 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 62 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 63 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 64 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 64 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 64 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 65 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 65 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 66 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 66 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 66 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 66 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 66 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 67 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 68 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 68 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 69 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 70 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 70 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 70 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 71 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 72 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 73 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 74 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 75 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 75 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 75 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 76 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 77 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 78 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 79 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 79 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 79 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 79 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 79 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 78 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 77 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 76 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 76 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 76 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 76 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 76 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 75 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 74 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 73 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 72 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 71 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 71 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 70 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 70 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 70 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 70 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 70 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 70 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 69 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 69 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 68 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 67 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 66 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 65 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 64 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 64 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 63 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 63 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 63 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 62 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 61 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 60 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 59 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 58 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 57 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 57 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 56 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 56 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 56 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 56 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 56 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 56 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 55 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 55 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 54 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 53 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 52 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 52 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 51 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 50 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 49 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 48 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 47 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 47 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 46 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 46 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 45 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 44 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 44 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 43 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 42 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 42 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 41 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 40 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 40 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 39 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 38 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 37 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 37 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 36 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 36 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 35 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 34 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 34 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 33 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 33 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 33 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 32 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 32 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 32 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 31 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 30 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 29 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 28 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 27 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 25 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 25 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 24 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 24 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 22 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 23 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 21 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 20 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 20 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 20 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 19 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 19 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 19 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 19 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 19 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 18 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 17 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 17 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 17 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 16 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 16 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 15 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 14 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 13 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 13 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 13 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 12 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 10 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 11 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 3 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 7 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 7 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 7 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 7 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 4 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 80 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 4 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 7 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 3 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 11 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 11 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 11 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 11 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 10 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 12 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 13 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 14 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 14 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 15 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 16 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 16 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 17 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 18 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 19 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 20 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 21 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 23 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 22 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 22 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 24 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 25 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 26 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 27 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 27 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 28 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 29 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 30 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 31 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 31 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 31 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 32 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 33 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 34 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 35 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 35 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 35 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 36 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 36 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 36 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 37 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 38 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 39 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 40 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 40 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 40 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 40 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 40 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 41 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 42 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 42 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 42 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 43 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 44 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 44 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 44 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 44 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 45 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 46 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 47 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 48 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 48 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 48 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 48 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 49 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 49 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 49 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 50 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 50 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 51 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 51 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 51 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 52 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-4122af9e-fc6b-4d59-959f-22a3083f26c2], received data: 0 bytes!
+ERROR 52 Game.Network.Helpers.RFC6455Helper - Index was outside the bounds of the array.:   at Game.Network.Helpers.RFC6455Helper.GetFrameData(Byte[] Data) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\Helpers\RFC6455Helper.cs:line 40
+   at Game.Network.Helpers.RFC6455Helper.GetDataFromFrame(Byte[] data) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Networking\Helpers\RFC6455Helper.cs:line 84
+INFO 52 Game.Server.GameServer - Received message from [game-4122af9e-fc6b-4d59-959f-22a3083f26c2], Data: 
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:54856, game-42488f3b-fb56-41d8-99ca-281a37e8e435!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-42488f3b-fb56-41d8-99ca-281a37e8e435], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Received message from [game-42488f3b-fb56-41d8-99ca-281a37e8e435], Data: ?
+INFO 3 Game.Server.GameServer - Incoming connection from 192.168.15.15:54862, game-44cdef69-12e8-4843-8568-3029a0cb6b4f!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:55013, game-7de95231-7105-4c86-a5e3-3aa467043f70!
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-7de95231-7105-4c86-a5e3-3aa467043f70], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Received message from [game-7de95231-7105-4c86-a5e3-3aa467043f70], Data: ?
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:55024, game-397e2ca4-54bf-4c12-b5ae-150ea22cedc4!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+WARN 1 Game.Server.GameServer - The server started successfully!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55087, game-4585840a-333c-4c3b-88a6-e1880f5f1db6!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-4585840a-333c-4c3b-88a6-e1880f5f1db6], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55091, game-dd0a5412-99d7-48d6-9b82-48822b0489c3!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-dd0a5412-99d7-48d6-9b82-48822b0489c3], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55548, game-70909fb9-cfd6-473e-9c81-d294c5d41a03!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-70909fb9-cfd6-473e-9c81-d294c5d41a03], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55768, game-2175a474-6432-4bcf-8e2e-80513b923648!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-2175a474-6432-4bcf-8e2e-80513b923648], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52154, game-24395861-89a2-40a5-a7eb-5b1aaf05414c!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-24395861-89a2-40a5-a7eb-5b1aaf05414c], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52205, game-e8a2a927-6762-4614-a45c-874603eedb84!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-e8a2a927-6762-4614-a45c-874603eedb84], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52309, game-175166cc-14f0-4262-b2f9-c41a0bc47975!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-175166cc-14f0-4262-b2f9-c41a0bc47975], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52436, game-917ee232-5605-42d0-aefd-91a377fdeafb!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-917ee232-5605-42d0-aefd-91a377fdeafb], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52448, game-b55e6ca2-f960-4660-af18-951516bac99b!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-b55e6ca2-f960-4660-af18-951516bac99b], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52455, game-4c8e218a-400d-4fb5-8523-34694fe03563!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52951, game-b9d96f9c-f21f-4c23-8d38-67bb6e3d1871!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-b9d96f9c-f21f-4c23-8d38-67bb6e3d1871], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:53325, game-1f09b4c3-008f-4d6d-9800-0242320c3fed!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-1f09b4c3-008f-4d6d-9800-0242320c3fed], received data: 0 bytes!
+INFO 3 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-4c8e218a-400d-4fb5-8523-34694fe03563], received data: 0 bytes!
+INFO 3 Game.Server.GameServer - Incoming connection from 192.168.15.15:53724, game-0ac83a34-4e50-4eed-bfe4-b11f9ea32c9b!
+INFO 3 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-0ac83a34-4e50-4eed-bfe4-b11f9ea32c9b], received data: 0 bytes!
+INFO 3 Game.Server.GameServer - Incoming connection from 192.168.15.15:53783, game-94f6d37b-813b-4ddc-96ea-216fe2fc654b!
+INFO 3 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-94f6d37b-813b-4ddc-96ea-216fe2fc654b], received data: 0 bytes!
+INFO 3 Game.Server.GameServer - Incoming connection from 192.168.15.15:54245, game-d2e53d93-1029-4432-9d0c-92627e8372f5!
+INFO 3 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-d2e53d93-1029-4432-9d0c-92627e8372f5], received data: 0 bytes!
+INFO 3 Game.Server.GameServer - Incoming connection from 192.168.15.15:54257, game-93e1b80d-8817-4345-96c0-41f9fc22ebf4!
+INFO 3 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-93e1b80d-8817-4345-96c0-41f9fc22ebf4], received data: 0 bytes!
+INFO 3 Game.Server.GameServer - Incoming connection from 192.168.15.15:54545, game-772e287f-7e29-4c81-bcf8-b3ff9e3ac8f6!
+INFO 3 Game.Server.GameServer - Incoming connection from 192.168.15.15:55418, game-14e49658-4ab0-4d15-ab70-807b9d3e1076!
+INFO 3 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-772e287f-7e29-4c81-bcf8-b3ff9e3ac8f6], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-14e49658-4ab0-4d15-ab70-807b9d3e1076], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:64387, game-d886417a-21c4-4a35-b947-7473a36fb503!
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-d886417a-21c4-4a35-b947-7473a36fb503], received data: 0 bytes!

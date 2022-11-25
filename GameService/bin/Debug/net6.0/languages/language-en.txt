@@ -1,0 +1,17 @@
+#Registro
+#Game.Server.Packets.Client.UserRegisterHandler.
+Game.Server.Packets.Client.UserRegisterHandler.IsNullOrEmpty:You have not filled in all essential fields!
+Game.Server.Packets.Client.UserRegisterHandler.ValidMail:You need to enter a valid email address!
+Game.Server.Packets.Client.UserRegisterHandler.ValidPassword:The passwords do not match or the length is invalid!
+Game.Server.Packets.Client.UserRegisterHandler.ValidNickName:Character name must be between 3 to 12 characters long!
+Game.Server.Packets.Client.UserRegisterHandler.AnyMail:Email address already exists!
+Game.Server.Packets.Client.UserRegisterHandler.AnyWallet:This wallet already has an account in the system
+Game.Server.Packets.Client.UserRegisterHandler.AnyNickName:This character name is already being used!
+Game.Server.Packets.Client.UserRegisterHandler.Success:Registration successfully Complete!
+
+#Login
+Game.Server.Packets.Client.UserLoginHandler.Success:Authentication successful!
+Game.Server.Packets.Client.UserLoginHandler.WrongPassword:The password entered is incorrect!
+Game.Server.Packets.Client.UserLoginHandler.NoAnyWallet:This wallet is not registered in our system!
+Game.Server.Packets.Client.UserLoginHandler.IsNullOrEmpty:You have not entered a password!
+Game.Server.Packets.Client.UserLoginHandler.NoWallet:You are not connected to a wallet!

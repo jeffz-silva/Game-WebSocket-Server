@@ -1,0 +1,423 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\GameService\\GameService.csproj": {}
+  },
+  "projects": {
+    "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Components\\Game.Components.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Components\\Game.Components.csproj",
+        "projectName": "Game.Components",
+        "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Components\\Game.Components.csproj",
+        "packagesPath": "C:\\Users\\JeffzAtaa\\.nuget\\packages\\",
+        "outputPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Components\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JeffzAtaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Database\\Game.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Database\\Game.Database.csproj",
+        "projectName": "Game.Database",
+        "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Database\\Game.Database.csproj",
+        "packagesPath": "C:\\Users\\JeffzAtaa\\.nuget\\packages\\",
+        "outputPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JeffzAtaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Resources\\Game.Resources.csproj": {
+                "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Resources\\Game.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Networking\\Game.Network.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Networking\\Game.Network.csproj",
+        "projectName": "Game.Network",
+        "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Networking\\Game.Network.csproj",
+        "packagesPath": "C:\\Users\\JeffzAtaa\\.nuget\\packages\\",
+        "outputPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Networking\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JeffzAtaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Resources\\Game.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Resources\\Game.Resources.csproj",
+        "projectName": "Game.Resources",
+        "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Resources\\Game.Resources.csproj",
+        "packagesPath": "C:\\Users\\JeffzAtaa\\.nuget\\packages\\",
+        "outputPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JeffzAtaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Server\\Game.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Server\\Game.Server.csproj",
+        "projectName": "Game.Server",
+        "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Server\\Game.Server.csproj",
+        "packagesPath": "C:\\Users\\JeffzAtaa\\.nuget\\packages\\",
+        "outputPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JeffzAtaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Components\\Game.Components.csproj": {
+                "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Components\\Game.Components.csproj"
+              },
+              "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Database\\Game.Database.csproj": {
+                "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Database\\Game.Database.csproj"
+              },
+              "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Networking\\Game.Network.csproj": {
+                "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Networking\\Game.Network.csproj"
+              },
+              "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Resources\\Game.Resources.csproj": {
+                "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Resources\\Game.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\GameService\\GameService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\GameService\\GameService.csproj",
+        "projectName": "GameService",
+        "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\GameService\\GameService.csproj",
+        "packagesPath": "C:\\Users\\JeffzAtaa\\.nuget\\packages\\",
+        "outputPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\GameService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JeffzAtaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Server\\Game.Server.csproj": {
+                "projectPath": "C:\\KaijuSoftwares\\.NET\\TankGame\\TankGame\\Game.Server\\Game.Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

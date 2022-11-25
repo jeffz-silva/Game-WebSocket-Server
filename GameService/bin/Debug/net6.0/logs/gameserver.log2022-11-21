@@ -1,0 +1,571 @@
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:60890, game-80498221-a922-427b-8fe2-c8d48b71268f!
+ERROR 8 Game.Server.Network.PacketProcessor - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - A cadeia de certificação foi emitida por uma autoridade que não é de confiança.):   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.SNIWritePacket(PacketHandle packet, UInt32& sniError, Boolean canAccumulate, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.WriteSni(Boolean canAccumulate)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode, Boolean canAccumulate)
+   at Microsoft.Data.SqlClient.TdsParser.TdsLogin(SqlLogin rec, FeatureExtension requestedFeatures, SessionData recoverySessionData, FederatedAuthenticationFeatureExtensionData fedAuthFeatureExtensionData, SqlConnectionEncryptOption encrypt)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.Login(ServerInfo server, TimeoutTimer timeout, String newPassword, SecureString newSecurePassword, SqlConnectionEncryptOption encrypt)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-80498221-a922-427b-8fe2-c8d48b71268f], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+ERROR 8 Game.Server.Network.PacketProcessor - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - A cadeia de certificação foi emitida por uma autoridade que não é de confiança.):   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-80498221-a922-427b-8fe2-c8d48b71268f], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+ERROR 8 Game.Server.Network.PacketProcessor - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - A cadeia de certificação foi emitida por uma autoridade que não é de confiança.):   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-80498221-a922-427b-8fe2-c8d48b71268f], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+INFO 8 Game.Server.GameServer - Received message from [game-80498221-a922-427b-8fe2-c8d48b71268f], Data: 
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:60955, game-297b2c5e-f694-4eb2-9294-c448eafb2d7b!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 1093ms!
+WARN 8 Game.Server.Network.PacketProcessor - (192.168.15.15:60955) Handle packet Thread [8][Game.Server.Packets.Client.UserLoginHandler] took 1093ms!
+INFO 8 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 15ms!
+INFO 8 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 47ms!
+INFO 8 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+INFO 8 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 3 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 3 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 16 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 16 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 17 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 17 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 17 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 21 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 34 Game.Server.GameServer - Received message from [game-297b2c5e-f694-4eb2-9294-c448eafb2d7b], Data: 
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:61177, game-bac506ed-cde3-4dfb-9516-266dfdc50f14!
+ERROR 9 Game.Server.Network.PacketProcessor - Can not convert Object to String.:   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Game.Resources.ConfigResource.GetDatabaseConfig() in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Resources\ConfigResource.cs:line 51
+   at Game.Database.GameUserData.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Database\GameUserData.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 9 Game.Server.GameServer - Received message from [game-bac506ed-cde3-4dfb-9516-266dfdc50f14], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+INFO 9 Game.Server.GameServer - Received message from [game-bac506ed-cde3-4dfb-9516-266dfdc50f14], Data: 
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61205, game-3cbe7692-7f59-4786-a9ae-8ae03e88e854!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 1312ms!
+WARN 8 Game.Server.Network.PacketProcessor - (192.168.15.15:61205) Handle packet Thread [8][Game.Server.Packets.Client.UserLoginHandler] took 1312ms!
+INFO 8 Game.Server.GameServer - Received message from [game-3cbe7692-7f59-4786-a9ae-8ae03e88e854], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 8 Game.Server.GameServer - Received message from [game-3cbe7692-7f59-4786-a9ae-8ae03e88e854], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+INFO 8 Game.Server.GameServer - Received message from [game-3cbe7692-7f59-4786-a9ae-8ae03e88e854], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-3cbe7692-7f59-4786-a9ae-8ae03e88e854], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-3cbe7692-7f59-4786-a9ae-8ae03e88e854], Data: 
+INFO 8 Game.Server.GameServer - Received message from [game-3cbe7692-7f59-4786-a9ae-8ae03e88e854], Data: 
+INFO 3 Game.Server.GameServer - Received message from [game-3cbe7692-7f59-4786-a9ae-8ae03e88e854], Data: 
+INFO 9 Game.Server.GameServer - Received message from [game-3cbe7692-7f59-4786-a9ae-8ae03e88e854], Data: 
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61287, game-64554c86-f90e-4afb-bbf7-86c005302e81!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 1218ms!
+WARN 8 Game.Server.Network.PacketProcessor - (192.168.15.15:61287) Handle packet Thread [8][Game.Server.Packets.Client.UserLoginHandler] took 1218ms!
+INFO 8 Game.Server.GameServer - Received message from [game-64554c86-f90e-4afb-bbf7-86c005302e81], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 8 Game.Server.GameServer - Received message from [game-64554c86-f90e-4afb-bbf7-86c005302e81], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 47ms!
+INFO 8 Game.Server.GameServer - Received message from [game-64554c86-f90e-4afb-bbf7-86c005302e81], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+INFO 8 Game.Server.GameServer - Received message from [game-64554c86-f90e-4afb-bbf7-86c005302e81], Data: 
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-64554c86-f90e-4afb-bbf7-86c005302e81], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61303, game-670dec4d-d634-407c-a304-d005dfc37e4c!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-670dec4d-d634-407c-a304-d005dfc37e4c], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:61326, game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e!
+WARN 8 Game.Database.GameUserData - Database is not configured!
+ERROR 8 Game.Server.Network.PacketProcessor - No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.:   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+WARN 8 Game.Database.GameUserData - Database is not configured!
+ERROR 8 Game.Server.Network.PacketProcessor - No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.:   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+WARN 8 Game.Database.GameUserData - Database is not configured!
+ERROR 8 Game.Server.Network.PacketProcessor - No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.:   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+WARN 8 Game.Database.GameUserData - Database is not configured!
+ERROR 8 Game.Server.Network.PacketProcessor - No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.:   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+WARN 8 Game.Database.GameUserData - Database is not configured!
+ERROR 8 Game.Server.Network.PacketProcessor - No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.:   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+WARN 8 Game.Database.GameUserData - Database is not configured!
+ERROR 8 Game.Server.Network.PacketProcessor - No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.:   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+WARN 8 Game.Database.GameUserData - Database is not configured!
+ERROR 8 Game.Server.Network.PacketProcessor - No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.:   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+WARN 8 Game.Database.GameUserData - Database is not configured!
+ERROR 8 Game.Server.Network.PacketProcessor - No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.:   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Packets\Client\UserLoginHandler.cs:line 21
+   at Game.Server.Network.PacketProcessor.HandlePacket(JObject packet) in C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Server\Network\PacketProcessor.cs:line 55
+INFO 8 Game.Server.GameServer - Received message from [game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+INFO 8 Game.Server.GameServer - Received message from [game-b32fdaf3-9eb2-4739-86e6-ad06a7744b2e], Data: 
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55741, game-2947de15-e447-4d47-8b00-eb4c48ebbbd8!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 1110ms!
+WARN 8 Game.Server.Network.PacketProcessor - (192.168.15.15:55741) Handle packet Thread [8][Game.Server.Packets.Client.UserLoginHandler] took 1110ms!
+INFO 8 Game.Server.GameServer - Received message from [game-2947de15-e447-4d47-8b00-eb4c48ebbbd8], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-2947de15-e447-4d47-8b00-eb4c48ebbbd8], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-2947de15-e447-4d47-8b00-eb4c48ebbbd8], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:55750, game-1f70c09e-a781-441c-b05a-777c66ac56db!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 31ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-1f70c09e-a781-441c-b05a-777c66ac56db], Data: {"Opcode":1,"UserName":"teste","Password":"teste"}
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:50069, game-7bcf1285-f055-49a3-a005-f65ed9c3e812!
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-7bcf1285-f055-49a3-a005-f65ed9c3e812], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:50094, game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4!
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 0 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-ef45bfdf-fa3b-43f9-892b-6d7328e0f3c4], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:52062, game-52467890-7c92-4468-9105-4fd5779ab38e!
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 1313ms!
+WARN 9 Game.Server.Network.PacketProcessor - (192.168.15.15:52062) Handle packet Thread [9][Game.Server.Packets.Client.UserWalletConnect] took 1313ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 46ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 15ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 15ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-52467890-7c92-4468-9105-4fd5779ab38e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52885, game-32078cc7-f94e-4a6b-8c9c-88f4d7faad0d!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 1094ms!
+WARN 8 Game.Server.Network.PacketProcessor - (192.168.15.15:52885) Handle packet Thread [8][Game.Server.Packets.Client.UserWalletConnect] took 1094ms!
+INFO 8 Game.Server.GameServer - Received message from [game-32078cc7-f94e-4a6b-8c9c-88f4d7faad0d], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-32078cc7-f94e-4a6b-8c9c-88f4d7faad0d], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52894, game-5e645ef3-ffd6-4f40-bea0-ab7246258b68!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-5e645ef3-ffd6-4f40-bea0-ab7246258b68], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-5e645ef3-ffd6-4f40-bea0-ab7246258b68], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:52922, game-4df0da26-ad07-49e1-b10c-e106aea8596a!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 47ms!
+INFO 8 Game.Server.GameServer - Received message from [game-4df0da26-ad07-49e1-b10c-e106aea8596a], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-4df0da26-ad07-49e1-b10c-e106aea8596a], received data: 0 bytes!
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:53261, game-dce6d559-5ccc-4df5-812b-42beee262a8e!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 1203ms!
+WARN 8 Game.Server.Network.PacketProcessor - (192.168.15.15:53261) Handle packet Thread [8][Game.Server.Packets.Client.UserWalletConnect] took 1203ms!
+INFO 8 Game.Server.GameServer - Received message from [game-dce6d559-5ccc-4df5-812b-42beee262a8e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 8 Game.Server.GameServer - Received message from [game-dce6d559-5ccc-4df5-812b-42beee262a8e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 47ms!
+INFO 8 Game.Server.GameServer - Received message from [game-dce6d559-5ccc-4df5-812b-42beee262a8e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-dce6d559-5ccc-4df5-812b-42beee262a8e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-dce6d559-5ccc-4df5-812b-42beee262a8e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-dce6d559-5ccc-4df5-812b-42beee262a8e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 8 Game.Server.GameServer - Received message from [game-dce6d559-5ccc-4df5-812b-42beee262a8e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-dce6d559-5ccc-4df5-812b-42beee262a8e], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:53849, game-512d08f8-ccaa-40fc-90b5-0ce32669246a!
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 15ms!
+INFO 9 Game.Server.GameServer - Received message from [game-512d08f8-ccaa-40fc-90b5-0ce32669246a], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-512d08f8-ccaa-40fc-90b5-0ce32669246a], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-512d08f8-ccaa-40fc-90b5-0ce32669246a], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:53865, game-17478a47-64ee-4266-8b4f-826647cc309b!
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-17478a47-64ee-4266-8b4f-826647cc309b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-17478a47-64ee-4266-8b4f-826647cc309b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-17478a47-64ee-4266-8b4f-826647cc309b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-17478a47-64ee-4266-8b4f-826647cc309b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-17478a47-64ee-4266-8b4f-826647cc309b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-17478a47-64ee-4266-8b4f-826647cc309b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-17478a47-64ee-4266-8b4f-826647cc309b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-17478a47-64ee-4266-8b4f-826647cc309b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-17478a47-64ee-4266-8b4f-826647cc309b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-17478a47-64ee-4266-8b4f-826647cc309b], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:54310, game-5148f675-261f-4eec-add9-5789ca41323e!
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-5148f675-261f-4eec-add9-5789ca41323e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-5148f675-261f-4eec-add9-5789ca41323e], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:54572, game-001a523e-a282-4b45-8cca-bd95abafa38c!
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-001a523e-a282-4b45-8cca-bd95abafa38c], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-001a523e-a282-4b45-8cca-bd95abafa38c], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:54591, game-b2770c72-b71d-46f1-8ad5-0a4b6b4135b9!
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-b2770c72-b71d-46f1-8ad5-0a4b6b4135b9], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-b2770c72-b71d-46f1-8ad5-0a4b6b4135b9], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:54648, game-8940c1a1-72cf-4ae4-b536-bc84e688ad8b!
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-8940c1a1-72cf-4ae4-b536-bc84e688ad8b], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-8940c1a1-72cf-4ae4-b536-bc84e688ad8b], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:54655, game-741bbc09-0ec1-446c-88eb-317ad0135562!
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-741bbc09-0ec1-446c-88eb-317ad0135562], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 9 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-741bbc09-0ec1-446c-88eb-317ad0135562], received data: 0 bytes!
+INFO 9 Game.Server.GameServer - Incoming connection from 192.168.15.15:54683, game-9155bb6c-7cf6-4d14-80a4-fa41de38da79!
+DEBUG 9 Game.Server.Network.PacketProcessor - Package process time 0ms!
+INFO 9 Game.Server.GameServer - Received message from [game-9155bb6c-7cf6-4d14-80a4-fa41de38da79], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 1 GameService.ConsoleStart - Starting GameService...
+WARN 1 Game.Server.GameServer - Registering global event handlers: true!
+DEBUG 1 Game.Server.GameServer - Init [Essentials GameComponents], State: True!
+DEBUG 1 Game.Server.GameServer - Init [ConfigResource], State: True!
+DEBUG 1 Game.Server.GameServer - Init [Socket], State: True!
+INFO 1 Game.Server.Network.PacketProcessor - PacketProcessor: Loaded [1] handlers from GameServer Assembly!
+WARN 1 Game.Server.GameServer - GameServer is now open for connections!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:60943, game-6ffabdd8-79b5-411b-bfc3-0d270864120e!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 1203ms!
+WARN 8 Game.Server.Network.PacketProcessor - (192.168.15.15:60943) Handle packet Thread [8][Game.Server.Packets.Client.UserWalletConnect] took 1203ms!
+INFO 8 Game.Server.GameServer - Received message from [game-6ffabdd8-79b5-411b-bfc3-0d270864120e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 16ms!
+INFO 8 Game.Server.GameServer - Received message from [game-6ffabdd8-79b5-411b-bfc3-0d270864120e], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+INFO 8 Game.Server.GameServer - Disconnecting client [0.0.0.0][game-6ffabdd8-79b5-411b-bfc3-0d270864120e], received data: 0 bytes!
+INFO 8 Game.Server.GameServer - Incoming connection from 192.168.15.15:60954, game-d18c66f4-424a-4825-8798-8ceb494ec0c0!
+DEBUG 8 Game.Server.Network.PacketProcessor - Package process time 47ms!
+INFO 8 Game.Server.GameServer - Received message from [game-d18c66f4-424a-4825-8798-8ceb494ec0c0], Data: {"Opcode":0,"WalletId":"0x1dda93d6a2ce9206853a49b26138ae07e42a8ed6"}
+WARN 8 Game.Server.Network.PacketProcessor - -- WARNING -- : Opcode: 1 not handleable by the server!
+INFO 8 Game.Server.GameServer - Received message from [game-d18c66f4-424a-4825-8798-8ceb494ec0c0], Data: {"Opcode":1,"Email":"redfser","Password":"resffserrf","ConfirmPassword":"serrfsf","NickName":"serfsef"}

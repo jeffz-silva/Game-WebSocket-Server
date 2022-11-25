@@ -1,0 +1,12 @@
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\bin\Debug\net6.0\Game.Components.deps.json
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\bin\Debug\net6.0\Game.Components.dll
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\bin\Debug\net6.0\Game.Components.pdb
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\obj\Debug\net6.0\Game.Components.csproj.AssemblyReference.cache
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\obj\Debug\net6.0\Game.Components.GeneratedMSBuildEditorConfig.editorconfig
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\obj\Debug\net6.0\Game.Components.AssemblyInfoInputs.cache
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\obj\Debug\net6.0\Game.Components.AssemblyInfo.cs
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\obj\Debug\net6.0\Game.Components.csproj.CoreCompileInputs.cache
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\obj\Debug\net6.0\Game.Components.dll
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\obj\Debug\net6.0\refint\Game.Components.dll
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\obj\Debug\net6.0\Game.Components.pdb
+C:\KaijuSoftwares\.NET\TankGame\TankGame\Game.Components\obj\Debug\net6.0\ref\Game.Components.dll
